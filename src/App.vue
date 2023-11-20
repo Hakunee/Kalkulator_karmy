@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Kalkulator karmy</router-link> 
+
   </nav>
   <router-view/>
 </template>
@@ -13,6 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
 }
 
 nav {
@@ -25,6 +26,46 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: rgb(0, 168, 22);
 }
+
+#h1{
+  color: rgb(0, 168, 22);
+
+  
+}
+#caticon
+{
+  position: absolute;
+  top:0;
+  left:0;
+}
+.kalendarz{
+  position: absolute;
+  width:70px;
+  margin-left: 31.75%;
+}
+h2{
+  text-align: left;
+  margin-left: 32%;
+}
+.ileDziennie{
+  text-align: left;
+  margin-left: 32%;
+}
+.ileWPuszce{
+  text-align: left;
+  margin-left: 32%;
+}
+#wybierzDate{
+  text-align: left;
+  margin-left: 35%;
+  margin-top: 0.5%;
+  color: red;
+}
+#potrzebaKupic{
+  transform: scale(1.5);
+}
+
+
 </style>
